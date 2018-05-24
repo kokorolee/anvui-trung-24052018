@@ -1,0 +1,201 @@
+*, html {
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+body {
+  box-shadow: none;
+  background: #fff;
+  padding: 50px;
+}
+
+.container {
+  width: 4323px;
+  height: 1200px;
+}
+
+.top__container {
+  display: inline-block;
+  width: 900px;
+  height: 30px;
+  position: relative;
+}
+.top__container .top__container--left .search__box {
+  width: 300px;
+  height: 100%;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  background: #F2F2F2;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.top__container .top__container--left .search__box .search__input {
+  height: 100%;
+  width: 250px;
+  height: 80%;
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+}
+.top__container .top__container--right {
+  float: left;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.top__container .top__container--right .datepicker {
+  border: 0;
+  font-size: 14px;
+  padding-left: 5px;
+  width: 100px;
+}
+.top__container .top__container--right .left-date p {
+  padding-left: 50px;
+}
+.top__container .top__container--right .right-date p {
+  padding-left: 50px;
+}
+
+.tab {
+  width: 900px;
+  height: 30px;
+  margin-top: 50px;
+  color: #0077E2;
+}
+
+.child-tab {
+  width: 19.6%;
+  height: 100%;
+  float: left;
+  border: 1px solid #0077E2;
+}
+.child-tab:hover {
+  cursor: pointer;
+}
+.child-tab.active {
+  background: #0077E2;
+  color: #fff;
+}
+
+.child-tab:first-child {
+  background: #0077E2;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.child-tab:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.tab-text {
+  display: inline-block;
+  margin: 0;
+  margin-top: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  color: #fff;
+  background: #78A6E2;
+}
+
+td, th {
+  border-top: 1px solid #78a6e2;
+  border-bottom: 1px solid #78a6e2;
+  text-align: left;
+  padding: 8px;
+}
+
+td:first-child, th:first-child {
+  border-left: 1px solid #78a6e2;
+}
+
+th:last-child {
+  color: #78A6E2;
+}
+
+td:last-child, th:last-child {
+  border: 0;
+  background: #fff;
+  border-left: 1px solid #78a6e2;
+}
+
+tr:nth-child(odd) {
+  background-color: #D3E1F4;
+}
+
+.table__data {
+  margin-top: 100px;
+  position: relative;
+}
+
+.custom__fa_position--midle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding-left--20px {
+  padding-left: 20px;
+}
+
+.padding_left--10px {
+  padding-left: 10px;
+}
+
+.vertical-align--midle {
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.m6 {
+  width: 50%;
+  float: left;
+}
+
+.button__container {
+  right: 225px;
+  width: 900px;
+  bottom: -200px;
+  position: absolute;
+}
+.button__container .top__button, .button__container .bottom__button {
+  display: flex;
+  cursor: pointer;
+}
+.button__container .top__button .button, .button__container .bottom__button .button {
+  flex: 1;
+  background: #0077E1;
+  margin: 0 5px;
+  color: #fff;
+  height: 45px;
+  line-height: 45px;
+  border: 1px solid #0077E1;
+  border-radius: 10px;
+}
+.button__container .top__button .button.plus, .button__container .bottom__button .button.plus {
+  font-weight: 800;
+  font-size: 30px;
+}
+.button__container .top__button .button.full-size, .button__container .bottom__button .button.full-size {
+  width: 100;
+}
+.button__container .bottom__button {
+  margin-top: 20px;
+}
