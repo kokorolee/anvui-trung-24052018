@@ -114,6 +114,7 @@ td, th {
   border-bottom: 1px solid #78a6e2;
   text-align: left;
   padding: 8px;
+  font-weight: 400;
 }
 
 td:first-child, th:first-child {
